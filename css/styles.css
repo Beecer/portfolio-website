@@ -1,5 +1,4 @@
 
-
 :root {
 --text-color: #2b2b2b;/*Dark Gray*/
 --primary-color: #1ABC9C;/*Sea Green*/
@@ -218,7 +217,7 @@ button:focus,
     grid-template-columns: 1fr;
   }
 }
-@media all and (min-width: 500px) and (max-width: 750px){
+@media all and (min-width: 500px) and (max-width: 750px) {
   .grid {
     grid-template-columns: 1fr 1fr;
   }
@@ -227,7 +226,7 @@ button:focus,
   .grid {
     grid-gap: 10px;
   }
-  .grid__item:last-child {
+   .grid__item: last-child {
     grid-column: auto / auto;
     grid-row: auto / auto;
   }
@@ -248,10 +247,10 @@ button:focus,
 }
 @keyframes reno-move {
   from {
-    transform: translatex(20%);
+    transform: translateX(20%);
   }
   to {
-    transform: translatex(40%);
+    transform: translateX(40%);
   }
 }
 
@@ -260,13 +259,12 @@ button:focus,
 }
 
 .reno__portrait {
-    max-width: 700px;
-    text-align: left;
-    margin-left: auto;
-    margin-right: auto;
-    padding-top: 20px;
+  max-width: 700px;
+  text-align: left;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 20px;
 }
-
 
 .reno__portrait {
   animation: 10s reno-move infinite alternate ease-out;
